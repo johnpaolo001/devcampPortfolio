@@ -13,7 +13,7 @@ class PortfoliosController < ApplicationController
 
     respond_to do |format|
       if @portfolio_items.save
-        format.html { redirect_to @portfolio_items, notice: 'Blog was successfully created.' }
+        format.html { redirect_to portfolios_path, notice: 'Blog was successfully created.' }
       else
         format.html { render :new }
       end
