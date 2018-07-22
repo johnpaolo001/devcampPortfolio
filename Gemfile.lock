@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/whitesilver12/myweb_view_tool
+  revision: db955e898b47b2fb30e70cc86fdcd7057639814a
+  specs:
+    myweb_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -210,6 +216,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  myweb_view_tool!
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)

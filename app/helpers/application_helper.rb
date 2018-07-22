@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    MywebViewTool::Renderer.copyright 'Mr Smith', 'All right reserved'
+  end
+
 end
