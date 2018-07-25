@@ -57,7 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
-gem 'bootstrap', '~> 4.1', '>= 4.1.1'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
 gem 'myweb_view_tool', git: 'https://github.com/whitesilver12/myweb_view_tool'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
